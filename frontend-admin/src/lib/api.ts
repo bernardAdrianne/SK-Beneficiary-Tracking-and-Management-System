@@ -37,7 +37,8 @@ export function logout() {
   localStorage.removeItem('sk_user');
 }
 
-export const API = 'http://localhost:3000/api';
+// 'http://localhost:3000/api'
+export const API = 'https://sk-benef-ackend.onrender.com/api';
 
 export async function apiFetch(path: string, options: FetchOptions = {}) {
   const t = get(token);
