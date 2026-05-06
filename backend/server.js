@@ -22,7 +22,7 @@ app.use(cors({
     'http://localhost:5174',
     'http://localhost:4173',
     'https://sk-tracking-admin.vercel.app',
-    'sk-tracking-portal.vercel.app'
+    'https://sk-tracking-portal.vercel.app'
   ],
 }));
 app.use(express.json());
