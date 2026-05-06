@@ -21,8 +21,8 @@ app.use(cors({
     'http://localhost:5173',
     'http://localhost:5174',
     'http://localhost:4173',
-    'https://frontend-admin.vercel.app',     // Your admin frontend (update with actual URL)
-    'https://frontend-portal.vercel.app'
+    'https://sk-beneficiary-tracking-and-management-system-hpmqjw8kp.vercel.app',
+    'https://sk-beneficiary-tracking-and-managem.vercel.app'                       
   ],
 }));
 app.use(express.json());
