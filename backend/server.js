@@ -21,8 +21,8 @@ app.use(cors({
     'http://localhost:5173',
     'http://localhost:5174',
     'http://localhost:4173',
-    'https://sk-beneficiary-tracking-and-management-system-hpmqjw8kp.vercel.app',
-    'https://sk-beneficiary-tracking-and-managem.vercel.app'                       
+    'https://sk-tracking-admin.vercel.app',
+    'sk-tracking-portal.vercel.app'
   ],
 }));
 app.use(express.json());
