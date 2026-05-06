@@ -34,7 +34,7 @@ export function logout() {
 }
 
 // http://localhost:3000/api
-export const API = 'https://sk-benef-ackend.onrender.com';
+export const API = 'https://sk-benef-ackend.onrender.com/api';
 
 /**
  * @param {string} path
